@@ -9,7 +9,7 @@ setup(
     author='Jingjing Xu',
     author_email='jingjingxu@pku.edu.cn',
     packages=find_packages(),
-    py_modules=['tqdm','subword-nmt','POT'],
+    py_modules=['tqdm','subword-nmt','POT','sentencepiece','mosesdecoder'],
     install_requires=['tqdm','subword-nmt','POT','sentencepiece'],
     
     classifiers=[

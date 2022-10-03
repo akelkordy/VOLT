@@ -1,0 +1,6 @@
+POT
+VOLT
+mosesdecoder
+sentencepiece
+subword-nmt
+tqdm

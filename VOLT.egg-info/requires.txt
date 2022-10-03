@@ -1,0 +1,4 @@
+POT
+sentencepiece
+subword-nmt
+tqdm
