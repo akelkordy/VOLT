@@ -1,3 +1,4 @@
+from gettext import install
 from struct import pack
 from setuptools import find_packages, setup
 
@@ -9,9 +10,9 @@ setup(
     author='Jingjing Xu',
     author_email='jingjingxu@pku.edu.cn',
     packages=find_packages(),
-    py_modules=['tqdm','subword-nmt','POT','sentencepiece','mosesdecoder'],
-    install_requires=['tqdm','subword-nmt','POT','sentencepiece'],
-    
+    install_requires = ['tqdm','POT','sentencepiece','subword-nmt','repo @ https://github.com/moses-smt/mosesdecoder'],
+    #dependency_links=
+    #['https://github.com/moses-smt/mosesdecoder/tarball/master#egg-package-1.0'],
     classifiers=[
        'Development Status :: 1 - Planning',
        'Intended Audience :: Developers',
