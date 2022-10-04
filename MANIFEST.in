@@ -1,4 +1,0 @@
-graft VOLT/examples
-graft VOLT/POT
-graft VOLT/mosesdecoder
-graft VOLT/subword-nmt
