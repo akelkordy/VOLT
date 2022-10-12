@@ -33,15 +33,8 @@ The required environments:
 **To use VOLT** and develop locally:
 
 ``` bash
-git clone https://github.com/Jingjing-NLP/VOLT/
-cd VOLT
+pip install VOLT
 git clone https://github.com/moses-smt/mosesdecoder.git
-git clone https://github.com/rsennrich/subword-nmt.git
-pip3 install sentencepiece
-pip3 install tqdm 
-cd POT
-pip3 install --editable ./ -i https://pypi.doubanio.com/simple --user
-cd ../
 ```
 
 # Usage
