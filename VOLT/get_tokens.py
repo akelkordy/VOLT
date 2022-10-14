@@ -1,6 +1,7 @@
 """Get all token cadidates associated with their frequencies."""
 from collections import OrderedDict
 from tqdm import tqdm
+import argparse
 
 
 def read_tokens(path, tokens=None, max_number_line=1e7, tokenizer='subword-nmt'): #@@
@@ -96,3 +97,16 @@ def get_tokens(source_file, target_file, token_candidate_file, tokenizer='subwor
         tokens = read_tokens(target_file, tokens=tokens, tokenizer=tokenizer)
     merge_code = read_merge_code_frequency(token_candidate_file, tokens, tokenizer=tokenizer)
     return merge_code
+
+def main():
+    print("Testing the token code")
+    parser = argparse.ArgumentParser(description='Process some input flags.')
+    parser.add_argument('--source_file', default=None,
+                        help='path to a source file for translation')
+    args = parser.parse_args()
+    source = args.source_file
+    tokens = read_tokens(source)
+    for key, value in tokens.items():
+        print(key, ':', value)
+
+main()

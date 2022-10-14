@@ -6,13 +6,11 @@ To help more readers understand our work better, I write a [blog](https://jingji
 
 
 ### What's New:
+* October 2022: Support pip usage 
 * July 2021: Support vocabulary learning for classification. 
 * July 2021: Support En-De translation, TED bilingual translation, and multilingual translation.  
 * July 2021: Support subword-nmt tokenization. 
 * July 2021: Support sentencepiece tokenization.
-
-## What's On-going:
-* Support pip usage.
 
 
 ### Features:
