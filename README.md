@@ -31,7 +31,8 @@ The required environments:
 **To use VOLT** and develop locally:
 
 ``` bash
-pip install VOLT
+pip install VLOT
+(Note that it is VLOT not VOLT due to PyPI restrictions)
 git clone https://github.com/moses-smt/mosesdecoder.git
 ```
 
